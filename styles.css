@@ -12,6 +12,10 @@ main, nav {
     padding: 0 12px;
 }
 
+main {
+    background-color: #F1B580;
+    color: white;
+}
 nav {
     display: flex;
 }
@@ -31,6 +35,7 @@ padding: 24px 0;
 }
 h1 {
     color: white;
+    display: inline-block;
 }
 
 footer {
@@ -39,8 +44,13 @@ footer {
     margin-top: auto;
 }
 .flex-container {
-    display: flex;
+    margin-left: auto;
 }
 img {
-    width: 300px;
+    width: 200px;
+}
+
+aside {
+    padding: 20px;
+    background-color:#F1E3DB;
 }
