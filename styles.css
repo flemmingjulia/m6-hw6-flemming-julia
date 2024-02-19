@@ -17,7 +17,7 @@ main {
     color: white;
 }
 nav {
-    display: flex;
+    display: inline-flexbox;
 }
 
 header, footer {
@@ -45,6 +45,7 @@ footer {
 }
 .flex-container {
     margin-left: auto;
+    justify-content: right ;
 }
 img {
     width: 200px;
